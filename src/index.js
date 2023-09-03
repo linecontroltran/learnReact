@@ -4,16 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const navbar = (
-  <nav>
-    <h1>Tommys</h1>
+const page = (
+  <div>
+    <img src="logo192.png" width= "40px" />
+    <h1>Testing react static page</h1>
     <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
+    <li>Some random stuff here</li>
+    <li>Some random junk here</li>
+    <li>Some random poppycock here</li>
+    <li>and finally last crap here</li>
     </ul>
-  </nav>
+  
+  </div>
 )
 
-ReactDOM.render(navbar, document.getElementById("root"))
+ReactDOM.render(page, document.getElementById("root"))
+
+//npm run start
