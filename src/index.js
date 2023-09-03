@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const page = (
+function testFunction () {
+  return (
   <div>
     <img src="logo192.png" width= "40px" />
     <h1>Testing react static page</h1>
@@ -17,7 +18,8 @@ const page = (
   
   </div>
 )
+  }
 
-ReactDOM.render(page, document.getElementById("root"))
+ReactDOM.render(testFunction(), document.getElementById("root"))
 
 //npm run start
