@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-function testFunction () {
+function TestFunction () {
   return (
   <div>
     <img src="logo192.png" width= "40px" />
@@ -20,6 +20,6 @@ function testFunction () {
 )
   }
 
-ReactDOM.render(testFunction(), document.getElementById("root"))
+ReactDOM.render(<TestFunction />, document.getElementById("root"))
 
 //npm run start
