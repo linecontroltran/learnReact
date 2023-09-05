@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './Header.js'
-import Footer from './Footer.js'
-import List from './List.js'
+import Header from './components/Header.js'
+import Footer from './components/Footer.js'
+import List from './components/List.js'
 
 
       function Page() {
